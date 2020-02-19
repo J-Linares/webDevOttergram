@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="wit=dth=device-width, initial-scale=1">
+      <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <title>ottergram</title>
+    </head>
+    <body>
+        <header class="main-header">
+            <h1 class="logo-text">ottergram</h1>
+        </header>
+        <main class="main-content">
+        <ul class="thumnail-list">
+            <li class="thumbnail-item">
+              <a href="img/otter1.jpg"   data-image-role="trigger"
+                                         data-image-title="Stayin' Alive"
+                                         data-image-url="img/otter1.jpg">
+                  <img class="thumbnail-image" src="img/otter1.jpg" alt="Barry the Otter">
+                <span class="thumbnial-title">Barry</span>
+              </a>
+            </li>
+            <li class="thumbnail-item">
+              <a href="img/otter2.jpg"  data-image-role="trigger"
+                                        data-image-title="Stayin' Alive"
+                                        data-image-url="img/otter2.jpg">
+                  <img class="thumbnail-image" src="img/otter2.jpg" alt="Robin the Otter">
+                <span class="thumbnail-titles">Robin</span>
+              </a>
+            </li>
+            <li class="thumbnail-item">
+                <a href="img/otter3.jpg" data-image-role="trigger"
+                                         data-image-title="Stayin' Alive"
+                                         data-image-url="img/otter3.jpg">
+                    <img class="thumbnail-image" src="img/otter3.jpg" alt="Maurice the Otter">
+                <span class="thumbnail-titles">Maurice</span>
+             </a>
+            </li>
+            <li class="thumbnail-item">
+                <a href="img/otter4.jpg" data-image-role="trigger"
+                                         data-image-title="Stayin' Alive"
+                                         data-image-url="img/otter4.jpg"> 
+                  <img class="thumbnail-image" src="img/otter4.jpg" alt="Lesley the Otter">
+                <span class="thumbnail-titles">Lesley</span>
+              </a>
+            </li>
+            <li class="thumbnail-item">
+                <a href="img/otter5.jpg" data-image-role="trigger"
+                                         data-image-title="Stayin' Alive"
+                                         data-image-url="img/otter5.jpg">
+                    <img class="thumbnail-image" src="img/otter5.jpg" alt="Barbara the Otter">
+                <span class="thumbnail-titles">Barbara</span>
+              </a>
+            </li>
+        </ul>
+        
+        <div class="detail-image-container">
+          <div class="detail-image-frame" data-image-role="frame">
+            <img class="detail-image" data-image-role="target" src="img/otter1.jpg" alt="">
+            <span class="detail-image-title" data-image-role="title">Stayin' Alive</span>
+          </div>>    
+        </div>
+      </main>
+      <script src="scripts/main.js" charset="utf-8" ></script>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.8.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.8.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAk8VmgxkR0ttJq6QPUQCVvokd1kUjjXas",
+    authDomain: "react-firebase-authentic-a996a.firebaseapp.com",
+    databaseURL: "https://react-firebase-authentic-a996a.firebaseio.com",
+    projectId: "react-firebase-authentic-a996a",
+    storageBucket: "react-firebase-authentic-a996a.appspot.com",
+    messagingSenderId: "462873352233",
+    appId: "1:462873352233:web:28885c3439df81cb3ae438",
+    measurementId: "G-HFPHW2RF03"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+    </body>
+</html>
