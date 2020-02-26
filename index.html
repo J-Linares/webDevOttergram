@@ -1,110 +1,128 @@
 <!DOCTYPE html>
+
 <html>
-    <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="wit=dth=device-width, initial-scale=1">
-      <link rel="stylesheet" 
-        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <title>ottergram</title>
-    </head>
-    <body>
-        <header class="main-header">
-            <h1 class="logo-text">ottergram</h1>
-        </header>
-        <main class="main-content">
-        <ul class="thumnail-list">
-            <li class="thumbnail-item">
-              <a href="img/otter1.jpg"   data-image-role="trigger"
-                                         data-image-title="Stayin' Alive"
-                                         data-image-url="img/otter1.jpg">
-                  <img class="thumbnail-image" src="img/otter1.jpg" alt="Barry the Otter">
-                <span class="thumbnial-title">Barry</span>
-              </a>
-            </li>
-            <li class="thumbnail-item">
-              <a href="img/otter2.jpg"  data-image-role="trigger"
-                                        data-image-title="Stayin' Alive"
-                                        data-image-url="img/otter2.jpg">
-                  <img class="thumbnail-image" src="img/otter2.jpg" alt="Robin the Otter">
-                <span class="thumbnail-titles">Robin</span>
-              </a>
-            </li>
-            <li class="thumbnail-item">
-                <a href="img/otter3.jpg" data-image-role="trigger"
-                                         data-image-title="Stayin' Alive"
-                                         data-image-url="img/otter3.jpg">
-                    <img class="thumbnail-image" src="img/otter3.jpg" alt="Maurice the Otter">
-                <span class="thumbnail-titles">Maurice</span>
-             </a>
-            </li>
-            <li class="thumbnail-item">
-                <a href="img/otter4.jpg" data-image-role="trigger"
-                                         data-image-title="Stayin' Alive"
-                                         data-image-url="img/otter4.jpg"> 
-                  <img class="thumbnail-image" src="img/otter4.jpg" alt="Lesley the Otter">
-                <span class="thumbnail-titles">Lesley</span>
-              </a>
-            </li>
-            <li class="thumbnail-item">
-                <a href="img/otter5.jpg" data-image-role="trigger"
-                                         data-image-title="Stayin' Alive"
-                                         data-image-url="img/otter5.jpg">
-                    <img class="thumbnail-image" src="img/otter5.jpg" alt="Barbara the Otter">
-                <span class="thumbnail-titles">Barbara</span>
-              </a>
-            </li>
-            <!-- We will be including our screen shots in the thumbnaoil list per the professors, instructions -->>
-            <li class="thumbnail-item">
-              <a href="img/Grid Garden screenshot.jpg.jpg"   data-image-role="trigger"
-                                         data-image-title="Stayin' Alive"
-                                         data-image-url="img/Grid Garden screenshot.jpg">
-                  <img class="thumbnail-image" src="img/Grid Garden screenshot.jpg" alt="Grid Garden final screen">
-                <span class="thumbnial-title">GridGarden</span>
-              </a>
-            </li>
 
-            <li class="thumbnail-item">
-              <a href="img/screenshotFroggy1.jpg"   data-image-role="trigger"
-                                         data-image-title="Stayin' Alive"
-                                         data-image-url="img/screenshotFroggy1.jpg">
-                  <img class="thumbnail-image" src="img/screenshotFroggy1.jpg" alt="FlexBox Froggy final screen">
-                <span class="thumbnial-title">FlexboxFroggy</span>
-              </a>
-            </li>
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" type="image/png" sizes="70x70" href="/img/otterfavicon.png">
 
-        </ul>
-        
-        <div class="detail-image-container">
-          <div class="detail-image-frame" data-image-role="frame">
-            <img class="detail-image" data-image-role="target" src="img/otter1.jpg" alt="">
-            <span class="detail-image-title" data-image-role="title">Stayin' Alive</span>
-          </div>>    
-        </div>
-      </main>
-      <script src="scripts/main.js" charset="utf-8" ></script>
-<!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/7.8.1/firebase-app.js"></script>
+  <title>ottergram</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="stylesheets/styles.css">
 
-<!-- TODO: Add SDKs for Firebase products that you want to use
+</head>
+
+<body>
+  <header class="main-header">
+    <h1 class="logo-text">ottergram</h1>
+  </header>
+  <!--PAY ATTENTION TO ANY TYPOS YOU MAY ENCOUNTER HERE-->
+
+  <main class="main-content">
+    <ul class="thumbnail-list">
+      <li class="thumbnail-item">
+        <a href="img/otter1.jpg" data-image-role="trigger" data-image-title="Stayin' Alive"
+          data-image-url="img/otter1.jpg">
+          <img class="thumbnail-image" src="img/otter1.jpg" alt="Barry the Otter">
+          <span class="thumbnail-title">Barry</span>
+        </a>
+      </li>
+      <li class="thumbnail-item">
+        <a href="img/otter2.jpg" data-image-role="trigger" data-image-title="How Deep Is Your Love"
+          data-image-url="img/otter2.jpg">
+          <img class="thumbnail-image" src="img/otter2.jpg" alt="Robin the Otter">
+          <span class="thumbnail-title">Robin</span>
+        </a>
+      </li>
+      <li class="thumbnail-item">
+        <a href="img/otter3.jpg" data-image-role="trigger" data-image-title="You Should Be Dancing"
+          data-image-url="img/otter3.jpg">
+          <img class="thumbnail-image" src="img/otter3.jpg" alt="Maurice the Otter">
+          <span class="thumbnail-title">Maurice</span>
+        </a>
+      </li>
+      <li class="thumbnail-item">
+        <a href="img/otter4.jpg" data-image-role="trigger" data-image-title="Night Fever"
+          data-image-url="img/otter4.jpg">
+          <img class="thumbnail-image" src="img/otter4.jpg" alt="Lesley the Otter">
+          <span class="thumbnail-title">Lesley</span>
+        </a>
+      </li>
+      <li class="thumbnail-item">
+        <a href="img/otter5.jpg" data-image-role="trigger" data-image-title="To Love Somebody"
+          data-image-url="img/otter5.jpg">
+          <img class="thumbnail-image" src="img/otter5.jpg" alt="Barbara the Otter">
+          <span class="thumbnail-title">Barbara</span>
+        </a>
+      </li>
+      <!-- We will be including our screen shots in the thumbnaoil list per the professors, instructions -->>
+      <li class="thumbnail-item">
+        <a href="img/Grid Garden screenshot.jpg.jpg" data-image-role="trigger" data-image-title="Goin' off the Grid"
+          data-image-url="img/Grid Garden screenshot.jpg">
+          <img class="thumbnail-image" src="img/Grid Garden screenshot.jpg" alt="Grid Garden final screen">
+          <span class="thumbnail-title">GridGarden</span>
+        </a>
+      </li>
+
+      <li class="thumbnail-item">
+        <a href="img/screenshotFroggy1.jpg" data-image-role="trigger" data-image-title="Flex on the haters"
+          data-image-url="img/screenshotFroggy1.jpg">
+          <img class="thumbnail-image" src="img/screenshotFroggy1.jpg" alt="FlexBox Froggy final screen">
+          <span class="thumbnail-title">FlexboxFroggy</span>
+        </a>
+      </li>
+    </ul>
+
+
+    <!-- Here we specify the detailed image the user will click on-->
+
+    <!--Add buttons to the detail-image-containwer for HW2-->
+    <div class="detail-image-container">
+
+      <!--LEFT BUTTON to navigate detailed image-->
+      <div class="detail-image-left-button" data-image-button="button">
+        <img class="left-btn" src="img/leftarrow.jpg" alt="<">
+      </div>
+
+      <!-- Main image container to be displayed-->
+      <div class="detail-image-frame" data-image-role="frame">
+        <img class="detail-image" data-image-role="target" src="img/otter1.jpg" alt="">
+        <span class="detail-image-title" data-image-role="title">Stayin' Alive</span>
+      </div>
+
+      <!--RIGHT BUTTON to navigate detailed image-->
+      <div class="detail-image-right-button" data-image-button="button">
+        <img class="right-btn" src="/img/rightarrow.jpg" alt=">">
+      </div>
+
+    </div>
+  </main>
+  <!-- Link to Main.js for access to the functions-->>
+  <script src="scripts/main.js" charset="utf-8"></script>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.8.1/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="https://www.gstatic.com/firebasejs/7.8.1/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.8.1/firebase-analytics.js"></script>
 
-<script>
-  // Your web app's Firebase configuration
-  var firebaseConfig = {
-    apiKey: "AIzaSyAk8VmgxkR0ttJq6QPUQCVvokd1kUjjXas",
-    authDomain: "react-firebase-authentic-a996a.firebaseapp.com",
-    databaseURL: "https://react-firebase-authentic-a996a.firebaseio.com",
-    projectId: "react-firebase-authentic-a996a",
-    storageBucket: "react-firebase-authentic-a996a.appspot.com",
-    messagingSenderId: "462873352233",
-    appId: "1:462873352233:web:28885c3439df81cb3ae438",
-    measurementId: "G-HFPHW2RF03"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
-</script>
-    </body>
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyAk8VmgxkR0ttJq6QPUQCVvokd1kUjjXas",
+      authDomain: "react-firebase-authentic-a996a.firebaseapp.com",
+      databaseURL: "https://react-firebase-authentic-a996a.firebaseio.com",
+      projectId: "react-firebase-authentic-a996a",
+      storageBucket: "react-firebase-authentic-a996a.appspot.com",
+      messagingSenderId: "462873352233",
+      appId: "1:462873352233:web:28885c3439df81cb3ae438",
+      measurementId: "G-HFPHW2RF03"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
+</body>
+
 </html>
